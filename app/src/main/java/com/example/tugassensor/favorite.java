@@ -44,6 +44,12 @@ import java.util.Locale;
 
 import im.delight.android.location.SimpleLocation;
 
+/*
+NIM : 10120045
+Nama : Fifit Siti Nurfitriyati Basyari
+Kelas : IF-2
+ */
+
 public class favorite extends AppCompatActivity implements OnMapReadyCallback {
 
     private ActivityFavoriteBinding binding;
@@ -125,7 +131,7 @@ public class favorite extends AppCompatActivity implements OnMapReadyCallback {
                 //Menantukan halaman Fragment yang akan tampil
                 int itemId = item.getItemId();
                 if (itemId == R.id.profileMenu) {
-                    Intent intent1 = new Intent(favorite.this, profile.class);
+                    Intent intent1 = new Intent(favorite.this, MainActivity.class);
                     startActivity(intent1);
                 } else if (itemId == R.id.favMenu) {
                     Intent intent2 = new Intent(favorite.this, favorite.class);

@@ -4,6 +4,12 @@ import com.google.gson.annotations.SerializedName;
 
 import java.io.Serializable;
 
+/*
+NIM : 10120045
+Nama : Fifit Siti Nurfitriyati Basyari
+Kelas : IF-2
+ */
+
 public class ModelResults implements Serializable {
     @SerializedName("geometry")
     private ModelGeometry modelGeometry;

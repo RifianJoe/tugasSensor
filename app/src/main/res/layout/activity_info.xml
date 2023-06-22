@@ -30,12 +30,12 @@
         android:layout_margin="20dp"
         android:textColor="@color/black"
         android:gravity="center"
-        android:text="Pergi Wisata merupakan aplikasi android yang berisikan daftar tempat wisata alam yang terletak di wilayah Bandung Raya"
+        android:text="Aplikasi ini dibuat oleh NIM : 10120045 Nama : Fifit Siti Nurfitriyati Basyari Kelas :IF 2 untuk memenuhi Tugas Memanfaatkan Sensor"
         />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNav"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@color/yellow_green"

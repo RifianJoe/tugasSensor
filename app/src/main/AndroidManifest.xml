@@ -27,9 +27,6 @@
             android:exported="true"
             android:windowSoftInputMode="adjustResize"/>
         <activity
-            android:name=".profile"
-            android:exported="false" />
-        <activity
             android:name=".info"
             android:exported="false" />
         <activity

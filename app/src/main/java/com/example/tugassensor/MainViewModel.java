@@ -17,6 +17,12 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+/*
+NIM : 10120045
+Nama : Fifit Siti Nurfitriyati Basyari
+Kelas : IF-2
+ */
+
 public class MainViewModel extends ViewModel {
     private final MutableLiveData<ArrayList<ModelResults>> modelResultsMutableLiveData = new MutableLiveData<>();
     public static String strApiKey = "AIzaSyCRhWH3Wf5mHphAqc8GDR00acm_M-d8kmk";

@@ -26,6 +26,12 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+/*
+NIM : 10120045
+Nama : Fifit Siti Nurfitriyati Basyari
+Kelas : IF-2
+ */
+
 public class location extends FragmentActivity {
 
     private ActivityLocationBinding binding;
@@ -44,31 +50,31 @@ public class location extends FragmentActivity {
         mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
 
         getCurrentLocation();
-//        BottomNavigationView bottomNavigation = findViewById(R.id.bottomNav);
-//        bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-//            @Override
-//            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-//
-//                Fragment fragment = null;
-//
-//                //Menantukan halaman Fragment yang akan tampil
-//                int itemId = item.getItemId();
-//                if (itemId == R.id.profileMenu) {
-//                    Intent intent1 = new Intent(location.this, profile.class);
-//                    startActivity(intent1);
-//                } else if (itemId == R.id.favMenu) {
-//                    Intent intent2 = new Intent(location.this, favorite.class);
-//                    startActivity(intent2);
-//                } else if (itemId == R.id.locMenu) {
-//                    Intent intent3 = new Intent(location.this, location.class);
-//                    startActivity(intent3);
-//                } else if (itemId == R.id.infoMenu) {
-//                    Intent intent4 = new Intent(location.this, info.class);
-//                    startActivity(intent4);
-//                }
-//                return true;
-//            }
-//        });
+        BottomNavigationView bottomNavigation = findViewById(R.id.bottomNav);
+        bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                Fragment fragment = null;
+
+                //Menantukan halaman Fragment yang akan tampil
+                int itemId = item.getItemId();
+                if (itemId == R.id.profileMenu) {
+                    Intent intent1 = new Intent(location.this, MainActivity.class);
+                    startActivity(intent1);
+                } else if (itemId == R.id.favMenu) {
+                    Intent intent2 = new Intent(location.this, favorite.class);
+                    startActivity(intent2);
+                } else if (itemId == R.id.locMenu) {
+                    Intent intent3 = new Intent(location.this, location.class);
+                    startActivity(intent3);
+                } else if (itemId == R.id.infoMenu) {
+                    Intent intent4 = new Intent(location.this, info.class);
+                    startActivity(intent4);
+                }
+                return true;
+            }
+        });
 
 
 

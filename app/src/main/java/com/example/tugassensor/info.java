@@ -10,12 +10,18 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+/*
+NIM : 10120045
+Nama : Fifit Siti Nurfitriyati Basyari
+Kelas : IF-2
+ */
+
 public class info extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_navigasi);
+        setContentView(R.layout.activity_info);
         BottomNavigationView bottomNavigation = findViewById(R.id.bottomNav);
         bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -26,7 +32,7 @@ public class info extends AppCompatActivity {
                 //Menantukan halaman Fragment yang akan tampil
                 int itemId = item.getItemId();
                 if (itemId == R.id.profileMenu) {
-                    Intent intent1 = new Intent(info.this, profile.class);
+                    Intent intent1 = new Intent(info.this, MainActivity.class);
                     startActivity(intent1);
                 } else if (itemId == R.id.favMenu) {
                     Intent intent2 = new Intent(info.this, favorite.class);

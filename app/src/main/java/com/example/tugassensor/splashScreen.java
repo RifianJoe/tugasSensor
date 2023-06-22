@@ -7,6 +7,12 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
 
+/*
+NIM : 10120045
+Nama : Fifit Siti Nurfitriyati Basyari
+Kelas : IF-2
+ */
+
 public class splashScreen extends AppCompatActivity {
 
     @Override

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/base"
     tools:context=".MainActivity">
 
     <FrameLayout
@@ -12,16 +13,109 @@
         android:layout_height="match_parent"
         android:layout_above="@id/bottomNav"
         />
+    <LinearLayout
+        android:id="@+id/linearTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="168dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/fotoprofil" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="10dp">
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/black"
+                android:text="NIM" />
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView2"
+                android:layout_alignStart="@+id/TextView01"
+                android:layout_alignBottom="@+id/textView2"
+                android:textColor="@color/black"
+                android:text="Nama" />
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView3"
+                android:layout_alignStart="@+id/TextView02"
+                android:layout_alignBottom="@+id/textView3"
+                android:textColor="@color/black"
+                android:text="Kelas" />
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView4"
+                android:layout_alignStart="@+id/TextView04"
+                android:layout_alignBottom="@+id/textView4"
+                android:textColor="@color/black"
+                android:text="Email" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:textColor="@color/black"
+                android:text="10120045" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_alignEnd="@+id/textView1"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="Fifit Siti Nurfitriyati basyari" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_alignEnd="@+id/textView2"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="IF-2" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_alignEnd="@+id/textView3"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="fifitbasyari@gmail.com" />
+        </RelativeLayout>
+    </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNav"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@color/yellow_green"
         app:itemTextColor="@color/black"
         app:menu="@menu/bottom_menu"
         app:itemIconTint="@color/black"
+        android:textColor="@color/black"
         />
 
 </RelativeLayout>

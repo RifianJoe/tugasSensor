@@ -10,6 +10,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
+/*
+NIM : 10120045
+Nama : Fifit Siti Nurfitriyati Basyari
+Kelas : IF-2
+ */
+
 public class sliderAdapter extends PagerAdapter {
     Context context;
     LayoutInflater layoutInflater;
@@ -17,12 +23,6 @@ public class sliderAdapter extends PagerAdapter {
     public sliderAdapter(Context context) {
         this.context = context;
     }
-
-//    int images[] = {
-//            R.raw.slides1,
-//            R.raw.slides2,
-//            R.raw.slides3
-//    };
 
     int title[] = {
             R.string.slide_title_1,

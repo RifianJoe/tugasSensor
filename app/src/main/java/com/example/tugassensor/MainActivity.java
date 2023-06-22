@@ -13,6 +13,12 @@ import android.widget.ListView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+/*
+NIM : 10120045
+Nama : Fifit Siti Nurfitriyati Basyari
+Kelas : IF-2
+ */
+
 public class MainActivity extends AppCompatActivity {
     String[] daftar;
     ListView ListView01;
@@ -34,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 //Menantukan halaman Fragment yang akan tampil
                 int itemId = item.getItemId();
                 if (itemId == R.id.profileMenu) {
-                    Intent intent1 = new Intent(MainActivity.this, profile.class);
+                    Intent intent1 = new Intent(MainActivity.this, MainActivity.class);
                     startActivity(intent1);
                 } else if (itemId == R.id.favMenu) {
                     Intent intent2 = new Intent(MainActivity.this, favorite.class);
