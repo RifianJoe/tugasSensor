@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">tugasSensor</string>
+
+    <string name="slide_title_1">Intro 1</string>
+    <string name="slide_title_2">Intro 2</string>
+    <string name="slide_title_3">Intro 3</string>
+    <string name="slide_desc_1">Deskripsi 1</string>
+    <string name="slide_desc_2">Deksripsi 2</string>
+    <string name="slide_desc_3">Deksripsi 3</string>
+    <string name="info">Informasi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

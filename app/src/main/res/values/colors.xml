@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="baseBlack">#212529</color>
+    <color name="ebonyBlack">#3C3C3A</color>
+    <color name="baseWhite">#f8f9fa</color>
+    <color name="baseYellow">#ffc800</color>
+    <color name="btnClick">#4fe086</color>
+    <color name="btnPress">#4f80e2</color>
+    <color name="merahWarn">#df4759</color>
+    <color name="yellowDark">#F6B010</color>
+    <color name="neon_green">#A3EBB1</color>
+    <color name="blue_green">#21B6A8</color>
+    <color name="kelly_green">#18A558</color>
+    <color name="green">#116530</color>
+    <color name="yellow_green">#DCEEC8</color>
+    <color name="base">#f0fcf2</color>
+    <color name="grey">#EDEDED</color>
+    <color name="colorPrimary">#42b752</color>
+    <color name="colorPrimaryDark">#35b24f</color>
+    <color name="colorAccent">#51c569</color>
+</resources>

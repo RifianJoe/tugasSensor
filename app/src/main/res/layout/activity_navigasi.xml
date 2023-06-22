@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@color/base"
+    tools:context=".info">
+
+    <TextView
+        android:id="@+id/headerInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info App"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="300dp"
+        />
+
+    <TextView
+        android:id="@+id/subTxtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerInfo"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Pergi Wisata merupakan aplikasi android yang berisikan daftar tempat wisata alam yang terletak di wilayah Bandung Raya"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/yellow_green"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/bottom_menu"
+        app:itemIconTint="@color/black"
+        />
+
+</RelativeLayout>

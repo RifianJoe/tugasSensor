@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profileMenu"
+        android:icon="@drawable/user"
+        android:title="Profile" />
+
+    <item android:id="@+id/favMenu"
+        android:icon="@drawable/fav"
+        android:title="Fav Food" />
+
+    <item android:id="@+id/locMenu"
+        android:icon="@drawable/loc"
+        android:title="Location" />
+
+    <item android:id="@+id/infoMenu"
+        android:icon="@drawable/infoapp"
+        android:title="Info App" />
+
+
+</menu>
